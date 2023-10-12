@@ -32,7 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+  .container {
+    background-color: paleturquoise;
+    border: solid 1px #aaa;
+    border-radius: 20px;
+    padding: 8px;
+    /* paddingのプロパティも修正が必要です */
+    margin: 8px;
+    display: 8px;
+    justify-content: space-around;
+    align-items: center;
+  }

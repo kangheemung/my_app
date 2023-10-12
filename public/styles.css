@@ -1,0 +1,17 @@
+.container {
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    /* or any other valid value like block, inline, etc. */
+    justify-content: space-around;
+    align-items: center;
+}
+li > div{
+    display: flex;
+    align-items: center;
+}
+button{ 
+    margin-left: 16px;
+}
